@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="containers" >
+        <header >
+            <div class="left-nav">
+                    <h1 id="func">Function</h1>
+
+                    <h1 id="gg">Game</h1>
+            </div>
+            <div class="right-nav">
+                <nav>
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span class="fab fa-instagram"><img src="./image/perspective_matte-117-128x128.png" alt=""></span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span class="fab fa-facebook-f"><img src="./image/perspective_matte-118-128x128.png" alt=""></span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span class="fab fa-twitter"><img src="./image/perspective_matte-29-128x128.png" alt=""></span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span class="fab fa-twitch"><img src="./image/perspective_matte-44-128x128.png" alt=""></span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+            </div>
+        </header>
+        <div class="containering" id="ggg">
+            <div class="game">
+         
+                
+                <!-- <div class="card"><img class="im" src="./images/level11/blackboard.png" alt=""></div> -->
+            </div>
+            <div class="screens">
+                
+    
+            </div>
+            
+            <button id="exit">exit</button>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="header">
+            <div class="lines">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+
+            </div>
+            <span>Calculator</span>
+            <span id="back">Back to Main Menu</span>
+            <section class="operation hidopt">
+               <p>GEOMETRIC FORMULAS</p>
+                  <select name="" id="select">
+               
+                <option type="radio"  value="RightTriangle">Right Triangle</option>
+                <option type="radio" value="ScaleneTriangle">Scalene Triangle</option>
+                <option type="radio" value="EquilateralTriangle">Equialteral Triangle</option>
+                <option type="radio" value="square">square</option>
+                <option type="radio" value="Rectangle">Rectangle</option>
+                <option type="radio" value="Paralellogram">Paralellogram</option>
+                <option type="radio" value="Sphere">Sphere</option>
+                <option type="radio" value="Hexagon">Hexagon</option>
+                <option type="radio" value="Pentagons">Pentagon</option>
+                <option type="radio" value="Esclipse">Esclipse</option>
+
+            </select>
+
+           
+            </section>
+           
+        </div>
+        <main class="content">
+            <div class="text">
+                <h2>A = Area</h2>
+                <h2>P = Perimetr</h2>
+                <h2>V = Volume</h2>
+                <select  id="sel">
+                   
+                </select>
+            </div>
+
+          <div class="opt">
+          
+        </div>
+        <button onclick="handlerButton(this)">Calculate</button>
+        <div class="output">
+            <div class="boxes  box1"></div>
+            <div class="boxes  screen">
+                  <!-- <div class="scrs"></div> -->
+            </div>
+            <div class="boxes  formula">
+
+            </div>
+        </div> 
+        </main>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
